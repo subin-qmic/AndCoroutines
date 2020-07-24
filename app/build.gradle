@@ -3,6 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('/Volumes/Data/Development/Keystore/Key1/keystore')
+            storePassword 'keystore'
+            keyAlias 'keystore'
+            keyPassword 'keystore'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
 
