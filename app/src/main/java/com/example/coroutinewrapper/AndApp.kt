@@ -6,6 +6,7 @@ import com.microsoft.appcenter.analytics.Analytics
 import com.microsoft.appcenter.crashes.Crashes
 
 
+
 class AndApp : Application() {
 
     override fun onCreate() {
